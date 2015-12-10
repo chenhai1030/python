@@ -9,7 +9,7 @@ description = '''usage: [-s srcdb] [-d dstdb] [-t table]
 
 This is the tool for merge sqlite database
 Run it like this:
-    python merge_db.py -s srcdb -d dstdb -t table'''
+    python coverdb.py -s srcdb -d dstdb -t table'''
 
 parser = argparse.ArgumentParser(description)
 parser.add_argument('-s','--srcdb',help='source database')
